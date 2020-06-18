@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: iron-bank-app
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+
+
+ironbank:
+  those-who-repay-debts:
+    - Lanister
+  a: 3
+
+raven:
+  destination: bravos, main, winter
+  enabled: true

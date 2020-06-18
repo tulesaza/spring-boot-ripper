@@ -1,0 +1,15 @@
+plugins {
+    id 'org.springframework.boot' version('2.3.0.RELEASE')
+}
+
+dependencies {
+    implementation 'org.flywaydb:flyway-core:6.4.4'
+    implementation 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-devtools'
+    implementation project(':iron-starter')
+}
+
+bootJar {
+    enabled = true
+}

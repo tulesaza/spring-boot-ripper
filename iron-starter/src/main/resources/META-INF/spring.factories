@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.tulesaza.ironstarter.IronConfiguration
+
+org.springframework.context.ApplicationContextInitializer=com.github.tulesaza.ironstarter.ProfileCheckApplicationContextInitializer
+
+org.springframework.boot.env.EnvironmentPostProcessor=com.github.tulesaza.ironstarter.ProfileDetectorEnvironmentPostProcessor
